@@ -58,10 +58,10 @@ const Navbar = () => {
               Home
             </Link>
             <Link
-              href="/about"
-              className={`block mt-4 lg:inline-block lg:mt-0 text-gray-300 hover:text-white mr-4 ${pathname === "/about" ? "text-red" : ""}`}
+              href="/skills"
+              className={`block mt-4 lg:inline-block lg:mt-0 text-gray-300 hover:text-white mr-4 ${pathname === "/skills" ? "text-red" : ""}`}
             >
-              About
+              Skills
             </Link>
             <Link
               href="/projects"
